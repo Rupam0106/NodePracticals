@@ -1,10 +1,10 @@
-const os=require("os");
-
+const os = require("os");
 console.log("Platform: " + os.platform());
 console.log("Architecture: " + os.arch());
-console.log(os.totalmem()); //total memory
-console.log(os.freemem()); // free memory
-console.log(os.uptime()) //uptime
-console.log(os.type()) // type of os
-console.log(os.release())
-console.log(os.hostname()) //host-name
+console.log("total memory: " + os.totalmem());
+console.log("total free Memory: " + os.freemem());
+console.log("total uptime: " + os.uptime());
+console.log("type of the operating system: " + os.type());
+console.log("Release date of the Operating system: " + os.release());
+console.log("host-name: " + os.hostname());
+console.log("Network Interfereces: " + os.networkInterfaces());

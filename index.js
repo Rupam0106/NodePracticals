@@ -5,4 +5,4 @@ function name(name){
 function surName(surname){
     return `Your surname is ${surname}`
 }
-module.exports=name;
+module.exports={name,surName};

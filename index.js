@@ -1,8 +1,5 @@
-function name(name){
-    return `Your Name is ${name}`
+function name(name,surname){
+    return `Your Name is ${name} ${surname}`
 }
 
-function surName(surname){
-    return `Your surname is ${surname}`
-}
-module.exports={name,surName};
+module.exports=name;

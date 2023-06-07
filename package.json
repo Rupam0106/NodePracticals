@@ -22,6 +22,7 @@
   "homepage": "https://github.com/Rupam0106/NodePracticals#readme",
   "dependencies": {
     "dotenv": "^16.1.4",
+    "ejs": "^3.1.9",
     "express": "^4.18.2",
     "morgan": "^1.10.0"
   }

@@ -1,27 +1,15 @@
 {
-  "name": "learn-express",
+  "name": "coremodule",
   "version": "1.0.0",
-  "description": "To learn the express",
+  "description": "1. npm login 2. usename: 3. password: 4. npm publish",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rupam0106/NodePracticals.git"
-  },
-  "keywords": [
-    "Express"
-  ],
-  "author": "Rupam Gupta",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Rupam0106/NodePracticals/issues"
-  },
-  "homepage": "https://github.com/Rupam0106/NodePracticals#readme",
   "dependencies": {
-    "dotenv": "^16.1.4",
-    "express": "^4.18.2"
+    "npm-publish-rudrainnovative": "^1.0.0"
   }
 }

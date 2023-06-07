@@ -2,6 +2,7 @@ const express=require("express");
 const app=express();
 const ejs=require("ejs")
 const User=require("./routes/user")
+const path=require("path")
 
 // application middleware
 app.use(express.json());
@@ -9,7 +10,7 @@ app.use(User)
 
 // Set EJS as templating engine
 app.set('view engine', 'ejs');
-app.set('views')
+app.set('views',path.join(__dirname,"views"))
 
 //export module
 module.exports=app;

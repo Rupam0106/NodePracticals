@@ -1,4 +1,4 @@
-### Git Commands :=
+### Git Commands :-
 
 1. git init - "To Initialized the git dir at local"
 2. git config --global "user.name"
